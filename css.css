@@ -1,0 +1,100 @@
+body{
+    background-image: url(slike/pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    background-color: bisque;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+li{
+    display: inline-block;
+    margin: 0px 100px;
+}
+li a {
+    display: block;
+    color: brown;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li:hover{
+    background-color: beige;
+}
+#logo{
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+    margin-top: 300px;
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+h3{
+    text-align: center;
+    color: brown;
+}
+button{
+    margin-left: 47%;
+    width: 120px;
+    height: 60px;
+    background-color: bisque;
+}
+button a{
+    text-decoration: none;
+    color: brown;
+}
+button:hover{
+    background-color: beige;
+}
+@media screen and (max-width:900px){
+    .fon{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .fon ul{
+        display: block;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .fon li{
+        margin: 0px;
+    }
+}
+
+
+.krug {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    animation: skok 2s infinite ease-in-out;
+}
+
+@keyframes skok {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-100px);
+    }
+}
+#maca{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+}

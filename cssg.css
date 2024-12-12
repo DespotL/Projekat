@@ -1,0 +1,72 @@
+body{
+    background-image: url(slike/basta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    background-color: bisque;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+li{
+    display: inline-block;
+    margin: 0px 100px;
+    
+}
+li a {
+    display: block;
+    color: brown;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li:hover{
+    background-color: beige;
+}
+.jelo{
+    border: 5px solid burlywood;
+    border-radius: 15px;
+    height: 600px;
+    width: 45%;
+    margin: 10px 40px;
+    background-color: white;
+    float: left;
+}
+.jelo:hover{
+    transition: border-color 0.5s;
+    border-color: brown;
+}
+.jelo img{
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+}
+.jelo p{
+    text-align: center;
+    padding: 0 25px 0 25px;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width:900px){
+    .fon{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    ul{
+        display: block;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    li{
+        margin: 0px;
+    }
+}

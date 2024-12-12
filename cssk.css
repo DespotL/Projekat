@@ -1,0 +1,71 @@
+body{
+    background-image: url(slike/basta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    background-color: bisque;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+li{
+    display: inline-block;
+    margin: 0px 100px;
+}
+li a {
+    display: block;
+    color: brown;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li:hover{
+    background-color: beige;
+}
+.forma{
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 150px;
+    border: 3px brown solid;
+    background-color: bisque;
+    width: 500px;
+    height: 300px;
+    margin-left: 38%;
+}
+@media screen and (max-width:900px){
+    .fon{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    ul{
+        display: block;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    li{
+        margin: 0px;
+    }
+}
+.forma input{
+    padding: 2px;
+    margin-bottom: 2px;
+}
+.forma button{
+    background-color: bisque;
+    border: solid brown 3px;
+    color: brown;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+.forma button:hover{
+    background-color:beige;
+}
+
